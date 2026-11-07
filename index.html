@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adrian Clyde V. Ibale | Portfolio</title>
+  <meta name="description" content="Adrian Clyde V. Ibale — creative portfolio featuring selected graphics and branding work." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Silent Sanctuary - Kundiman background music. The uploaded MP3 is used locally.
+       Browsers normally require visitor interaction before audible playback can begin. -->
+  <audio id="kundimanAudio" preload="auto" loop>
+    <source src="music/kundiman.mp3" type="audio/mpeg" />
+  </audio>
+
+  <button id="kundimanControl" class="kundiman-control" type="button" aria-label="Play Kundiman by Silent Sanctuary">
+    <span class="kundiman-icon">♪</span>
+    <span id="kundimanControlText">Play Kundiman</span>
+  </button>
+  <header class="navbar">
+    <a class="brand" href="#home"><span>AC</span><small>ADRIAN CLYDE</small></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#music">Music</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">CREATIVE PORTFOLIO</p>
+        <h1>Adrian Clyde<br><span>V. Ibale</span></h1>
+        <p class="hero-sub">BSCS Student • Designer • Developer</p>
+        <p class="hero-desc">A collection of my selected school works, graphics, branding, websites, and digital projects.</p>
+        <div class="hero-buttons">
+          <a class="button gold" href="#portfolio">View My Work</a>
+          <a class="button outline" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="gold-ring"></div>
+        <div class="hero-mark">ACE</div>
+        <div class="hero-submark">CREATIVE • DESIGN • CODE</div>
+      </div>
+    </section>
+
+    <section id="about" class="section dark-section">
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Design with purpose.<br><span>Build with ideas.</span></h2>
+          <p>I’m <strong>Adrian Clyde V. Ibale</strong>, a BSCS student interested in graphics design, web development, programming, and digital projects.</p>
+          <p>This portfolio presents my current selected work in a clean, premium visual style inspired by my ACE Pilot Service mood board.</p>
+        </div>
+        <div class="portrait-card">
+          <img src="images/profile.jpg" alt="Adrian Clyde V. Ibale">
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section cream-section">
+      <div class="section-heading">
+        <p class="eyebrow">CAPABILITIES</p>
+        <h2>My Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <article><span>01</span><h3>Graphics Design</h3><p>Branding, layouts, posters, presentations, and visual composition.</p></article>
+        <article><span>02</span><h3>Web Development</h3><p>HTML, CSS, responsive layouts, and interactive website projects.</p></article>
+        <article><span>03</span><h3>Programming</h3><p>Python, Dart, algorithms, OOP, and programming activities.</p></article>
+        <article><span>04</span><h3>UI & Visual Design</h3><p>Wireframes, hierarchy, typography, color systems, and interface ideas.</p></article>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio-section">
+      <div class="section-heading centered">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>My Portfolio</h2>
+        <p>Selected works from my graphics, branding, and web projects.</p>
+      </div>
+
+      <div class="work-grid">
+        <article class="work-card featured">
+          <img src="images/ace-logo.png" alt="ACE Pilot Service logo">
+          <div class="work-info">
+            <p class="work-number">01 / BRAND MARK</p>
+            <h3>ACE Pilot Service Logo</h3>
+            <p>A premium black, cream, and gold identity featuring the ACE monogram, sword-inspired mark, and Pilot Service wordmark.</p>
+            <div class="tags"><span>Branding</span><span>Logo Design</span><span>Visual Identity</span></div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="images/ace-moodboard.png" alt="ACE Pilot Service mood board">
+          <div class="work-info">
+            <p class="work-number">02 / MOOD BOARD</p>
+            <h3>ACE Pilot Service Mood Board</h3>
+            <p>Defined the visual direction through the Onyx Black, gold, cream, and deep red palette with Lora typography.</p>
+            <div class="tags"><span>Mood Board</span><span>Color</span><span>Typography</span></div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="images/ace-brand-presentation.png" alt="ACE Pilot Service brand presentation">
+          <div class="work-info">
+            <p class="work-number">03 / BRAND PRESENTATION</p>
+            <h3>ACE Pilot Service Brand Layout</h3>
+            <p>A refined presentation of the sword emblem, ACE name, and Pilot Service identity using the approved mood board direction.</p>
+            <div class="tags"><span>Brand Identity</span><span>Layout</span><span>Presentation</span></div>
+          </div>
+        </article>
+
+        <article class="work-card featured">
+          <img src="images/brewhaven-social-media.jpg" alt="Brew Haven Pumpkin Spice Latte social media post">
+          <div class="work-info">
+            <p class="work-number">04 / SOCIAL MEDIA DESIGN</p>
+            <h3>Brew Haven — Pumpkin Spice Latte</h3>
+            <p>A seasonal social media campaign design for Brew Haven featuring a warm, cozy rainy-day coffee theme and a Pumpkin Spice Latte promotion.</p>
+            <div class="tags"><span>Social Media</span><span>Campaign</span><span>Graphic Design</span></div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="images/brewhaven-landing-banner.svg" alt="Brew Haven landing page banner">
+          <div class="work-info">
+            <p class="work-number">05 / WEB DESIGN</p>
+            <h3>Brew Haven — Landing Page</h3>
+            <p>A landing-page banner created for the Brew Haven website campaign, carrying the same warm and inviting brand direction.</p>
+            <div class="tags"><span>Web Design</span><span>Landing Page</span><span>Branding</span></div>
+          </div>
+        </article>
+
+        <article class="work-card typography-card">
+          <img src="images/the-last-whisper-typography.png" alt="The Last Whisper horror movie typography poster">
+          <div class="work-info">
+            <p class="work-number">06 / TYPOGRAPHY</p>
+            <h3>The Last Whisper — Typography Poster</h3>
+            <p>A horror movie poster focused on expressive typography, visual hierarchy, contrast, spacing, and cinematic mood. The title lettering is the main visual element, supported by restrained supporting text.</p>
+            <div class="tags"><span>Typography</span><span>Poster Design</span><span>Visual Hierarchy</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="music" class="section music-section cream-section">
+  <div class="section-heading">
+    <p class="eyebrow">SOUNDTRACK</p>
+    <h2>My Favorite Music</h2>
+    <p>Play my favorite BINI, Silent Sanctuary, and Ben&amp;Ben music without leaving my portfolio.</p>
+  </div>
+
+  <div class="music-player-grid">
+    <div class="music-player-card">
+      <div class="music-player-title"><span>BINI</span><small>Favorite artist</small></div>
+      <iframe src="https://open.spotify.com/embed/artist/7tNO3vJC9zlHy2IJOx34ga?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="BINI Spotify player"></iframe>
+    </div>
+
+    <div class="music-player-card">
+      <div class="music-player-title"><span>Silent Sanctuary</span><small>Favorite artist</small></div>
+      <iframe src="https://open.spotify.com/embed/artist/4nGp682WMiKS4X217kPw8C?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Silent Sanctuary Spotify player"></iframe>
+    </div>
+    <div class="music-player-card">
+      <div class="music-player-title"><span>Ben&amp;Ben</span><small>Favorite artist</small></div>
+      <iframe src="https://open.spotify.com/embed/artist/4DAcJXcjX0zlQAZAPAx4Zb?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Ben&amp;Ben Spotify player"></iframe>
+    </div>
+  </div>
+
+  <div class="music-note">
+    <strong>Background soundtrack:</strong> Silent Sanctuary's <em>Kundiman</em> plays as the portfolio background music after the visitor interacts with the page. The track is streamed through YouTube rather than stored in the website files.
+  </div>
+</section>
+
+    <section id="contact" class="section contact-section dark-section">
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Let’s create<br><span>something strong.</span></h2>
+          <p>Interested in my work? Connect with me through the details below.</p>
+        </div>
+        <div class="contact-details">
+          <p><span>Email</span><br><a href="mailto:yourname@email.com">yourname@email.com</a></p>
+          <p><span>Facebook</span><br><a href="https://www.facebook.com/share/18wirioorG/" target="_blank" rel="noopener">My Facebook Profile</a></p>
+          <p><span>Portfolio</span><br>Adrian Clyde V. Ibale</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>AC</div>
+    <p>© 2026 Adrian Clyde V. Ibale</p>
+    <small>CREATIVE PORTFOLIO</small>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('#navMenu');
+    toggle.addEventListener('click', () => nav.classList.toggle('open'));
+    document.querySelectorAll('#navMenu a').forEach(link => link.addEventListener('click', () => nav.classList.remove('open')));
+
+    // Silent Sanctuary — Kundiman background music
+    const kundimanAudio = document.getElementById('kundimanAudio');
+    const kundimanButton = document.getElementById('kundimanControl');
+    const kundimanText = document.getElementById('kundimanControlText');
+
+    // Keep the background subtle.
+    kundimanAudio.volume = 0.18;
+
+    async function startKundiman() {
+      try {
+        await kundimanAudio.play();
+        kundimanText.textContent = 'Pause Kundiman';
+        kundimanButton.setAttribute('aria-label', 'Pause Kundiman by Silent Sanctuary');
+      } catch (error) {
+        // Browser autoplay policy may block playback until the visitor taps/clicks.
+        kundimanText.textContent = 'Play Kundiman';
+      }
+    }
+
+    function pauseKundiman() {
+      kundimanAudio.pause();
+      kundimanText.textContent = 'Play Kundiman';
+      kundimanButton.setAttribute('aria-label', 'Play Kundiman by Silent Sanctuary');
+    }
+
+    kundimanButton.addEventListener('click', async (event) => {
+      event.stopPropagation();
+      if (kundimanAudio.paused) {
+        await startKundiman();
+      } else {
+        pauseKundiman();
+      }
+    });
+
+    // Start after the first visitor interaction, when the browser permits audible playback.
+    let interactionStarted = false;
+    const startOnInteraction = () => {
+      if (!interactionStarted) {
+        interactionStarted = true;
+        startKundiman();
+      }
+    };
+    ['pointerdown', 'keydown'].forEach(type => {
+      document.addEventListener(type, startOnInteraction, { once: true, passive: true });
+    });
+
+    kundimanAudio.addEventListener('play', () => {
+      kundimanText.textContent = 'Pause Kundiman';
+    });
+    kundimanAudio.addEventListener('pause', () => {
+      kundimanText.textContent = 'Play Kundiman';
+    });
+
+  </script>
+</body>
+</html>
